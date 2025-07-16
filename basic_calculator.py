@@ -67,3 +67,15 @@ secondNumber=(input("Second Number:"))
 exp = float(firstNumber) ** float(secondNumber)
 print (f"{firstNumber} ** {secondNumber} = {exp:.2f}") 
 
+
+print("****************")
+print("Floor Division")
+print("****************")
+print ("Enter two numbers to perform floor divition")
+#accepts first number and store it
+firstNumber=(input("First Number:"))
+#accepts second number and store it
+secondNumber=(input("Second Number:"))
+floor_div = float(firstNumber) // float(secondNumber)
+print (f"{firstNumber} // {secondNumber} = {floor_div:.2f}")
+
